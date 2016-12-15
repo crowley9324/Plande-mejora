@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Plan de mejoramiento</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<img src="img/33wOLygtext.png">
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar center">
+					<li class="active"><a href="#">Inicio</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Quienes somos <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Misión</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Visión</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<div class="dropdown">
+						<p><div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Iniciar sesión</button></div></p>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<div class="container text-center">
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Ver carousel</button>
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<img class="img-responsive" src="http://placehold.it/1200x600/555/000&text=One" alt="...">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="http://placehold.it/1200x600/fffccc/000&text=Two" alt="...">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="http://placehold.it/1200x600/fcf00c/000&text=Three" alt="...">
+							<div class="carousel-caption">
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="page-header">
+		<center>
+			<div class="jumbotron">
+				<h1>Diseño Web</h1>
+				<p>...</p>
+				<p><div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Click aqui</button></div></p>
+			</div>
+		</center>
+	</div>
+	<div class="row grid-divider">
+		<div class="col-sm-4">
+			<div class="col-padding">
+				<h3>Column 1</h3>
+				<p>Uno de los aspectos fundamentales a la hora de crear cualquier web es el diseño, del que debemos ocuparnos después de haber definido la arquitectura de la información (que engloba el planteamiento del árbol web, la elaboración del análisis funcional y el esquema de las funcionalidades y contenidos en los wireframes).</p>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="col-padding">
+				<h3>Column 2</h3>
+				<p>Sin duda, el diseño es la parte más creativa del proyecto, ya que permite vestir los prototipos ya aprobados. Continuando con este símil, la ropa y los complementos conferirán al sitio web un aspecto externo atractivo, capaz de suscitar el interés y de llamar la atención del público objetivo.</p>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="col-padding">
+				<h3>Column 3</h3>
+				<p>Para que el diseño resulte eficaz, hay que tener en cuenta la información recogida en la fase de captación de necesidades, además de los gustos, requisitos y preferencias del cliente. La creatividad será responsabilidad del equipo de diseño, que presentará diferentes propuestas gráficas basadas en la estructura.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h3 class="modal-title" id="lineModalLabel">Iniciar sesión</h3>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Correo electronico</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Contraseña</label>
+						<input type="Contraseña" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> Recordar contraseña
+						</label>
+					</div>
+					<button type="submit" class="btn btn-default">Entrar</button>
+				</form>
+
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.navbar{
+	background-color: cadetblue;
+	background-image: url(../img/music_bg.png); 
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #000;
+	background-color: #b2dfdb;
+}
+body{
+	background-image: url(../img/music_bg.png); 
+	background-color: gainsboro;
+}
+.jumbotron {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    background-image: url(../img/desarrolloweb.png);
+    background-position: 25px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #538e89;
+}
+
